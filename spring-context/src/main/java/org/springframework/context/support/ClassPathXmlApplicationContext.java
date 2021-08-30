@@ -29,7 +29,8 @@ import org.springframework.util.Assert;
  * that include the package path (e.g. "mypackage/myresource.txt"). Useful for
  * test harnesses as well as for application contexts embedded within JARs.
  *
- * <p>The config location defaults can be overridden via {@link #getConfigLocations},
+ * <p>The config location defaults can be overridden v    runs-on: ubuntu-latest
+ia {@link #getConfigLocations},
  * Config locations can either denote concrete files like "/myfiles/context.xml"
  * or Ant-style patterns like "/myfiles/*-context.xml" (see the
  * {@link org.springframework.util.AntPathMatcher} javadoc for pattern details).
